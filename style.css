@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    width: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    z-index: 1000;
+    
+}
+
+.navbar {
+    background-color: #fff;
+    height: 80px;
+    width: 1506.4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+   
+}
+
+.nav-logo {
+    height: 64px;
+    width: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20.5rem;
+    margin-left: 3rem;
+}
+
+.logo {
+    background-image: url(img/Airbnb_logo_PNG3.png);
+    background-size: cover;
+    object-fit: cover;
+    height: 30px;
+    width: 100px;
+
+}
+
+.navbar ul {
+    height: 45.6px;
+    width: 345.61px;
+    margin-right: 12.5rem;
+    padding: 0 0 0 8px;
+    box-shadow: 0.6px 0.8px 0.5px #111;
+    /* border: 0.1px solid #111; */
+    border-radius: 32px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 0 16px;
+    color: #222222;
+    font-weight: 500;
+
+}
+
+.navbar ul hr {
+    height: 23px;
+    width: 0;
+}
+
+.anyguest {
+    color: #717171 !important;
+    font-weight: 400 !important;
+}
+
+.navbar ul i {
+    background-color: #ff385c;
+    color: #fff;
+    height: 32px;
+    width: 32px;
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.account {
+    width: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu {
+    width: 76.6px;
+    height: 42px;
+    /* padding: 5px 5px 5px 12px ; */
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.3px 0.4px 0.3px 0.3px #111;
+    box-sizing: border-box;
+    /* border: 0.5px solid black; */
+    border-radius: 24px;
+}
+
+.menu img {
+    height: 28.68px;
+    width: 28.68px;
+    margin-left: 13px;
+
+}
+
+.nav-part2 {
+    background-color: white;
+    width: 1406.4px;
+    height: 98px;
+    padding: 0 80px 0 70px;
+    /* margin: ; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.panel1 {
+    width: 83.48px;
+    height: 48px;
+    /* margin-right: 15px; */
+}
+
+.panel1 p:hover {
+    font-weight: 500;
+}
+
+.panel1 img {
+    height: 24px;
+    width: 24px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22px;
+    width: 22px;
+    border: 0.8px solid black;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    margin-right: 18px;
+}
+
+.arrow i {
+    font-size: 13px;
+    font-style: bold;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 90.15px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0.3px 0.4px 0.3px 0.3px #111;
+    /* border: 0.1pt solid black; */
+    border-radius: 15px;
+}
+
+.filter img {
+    height: 16px;
+    width: 16px;
+    margin-right: 8.5px;
+}
+
+.taxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 38px 11px 16px;
+    width: 202px;
+    height: 42px;
+    box-shadow: 0.3px 0.4px 0.3px 0.3px #111;
+    /* border: 0.1pt solid black; */
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+    padding: 0 57px 0 57px;
+    background-color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 318.6px;
+    height: 402.66px;
+    font-size: 15px;
+    margin-bottom: 3rem;
+}
+
+.card img {
+    width: 318.6px;
+    height: 302.66px;
+    border-radius: 13px;
+    object-fit: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.card i {
+    font-size: 11px;
+    margin-left: 6rem;
+}
+
+
+.card p {
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+
+.card-heart {
+    font-size: 20px !important;
+    position: relative;
+    bottom: 70%;
+    left: 57%;
+    /* background-color: #111; */
+    border-radius: 35%;
+    color: #fff;
+}
+
+.middle {
+    width: 318.6px;
+    height: 340.66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 11px; */
+    background-color: #fff;
+    border-radius: 50%;
+    height: 29px;
+    width: 29px;
+}
+
+
+.card:hover .image {
+    opacity: 1;
+}
+
+.card:hover .middle {
+    opacity: 1;
+}
+
+footer {
+    width: 1506.4px;
+    height: 374.89px;
+    margin-top: 3.5rem;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot1 {
+    position: relative;
+    right: 10.4%;
+    height: 306.8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot1 ul {
+    padding: 48px 0px;
+}
+
+.foot1 p {
+    font-weight: 500;
+}
+
+.foot1 ul a {
+    font-weight: 300;
+    display: block;
+    margin-top: 12px;
+}
+
+.foot2 {
+    padding: 0 57px 0 57px;
+    font-size: 14px;
+    height: 68.81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    margin-right: 39rem;
+    font-weight: 300;
+}
+
+.connect {
+    margin-left: 4rem;
+}
+
+.connect i {
+    margin-right: 7px;
+    font-size: 20px;
+    margin-left: 14px;
+}
